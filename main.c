@@ -12,7 +12,7 @@ void send_Data(unsigned char);
 void Enable(void);
 int main(void)
 {
-  char a[]="Hello World"
+  char a[]="Hello World";
   
   DDRB=0xFF;
   DDRA=0x07;
